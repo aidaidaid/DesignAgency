@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #F9F8FF;
+    font-family: 'DM Sans', sans-serif;
+}
+
+main>div * {
+    margin: auto 10%;
+}
+
+header {
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: #0D0D0D;
+}
+
+footer>div:first-child {
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#copyright {
+    margin: 0 30px;
+}
+
+#copyright>p {
+    float: left;
+}
+
+#copyright div {
+    float: right;
+}
+
+#copyright div p {
+    display: inline-block;
+}
+
+
+
+#logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.btn,
+#sosial {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    flex: 3;
+    text-align: center;
+}
+
+#intro button {
+    width: 194px;
+    height: 61px;
+    border-radius: 60px;
+    background-color: #fff;
+    color: #57B3FE;
+    border-width: 0;
+}
+
+#intro button,
+#intro img {
+    display: block;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#what-you-get {
+    /*margin: 15% 25%;*/
+}
+
+.wyg-text p,
+#brands p:first-child {
+    color: #00A077;
+}
+
+.icons {
+    position: relative;
+    height: 90px;
+    width: 90px;
+}
+
+.icons .icon {
+    position: absolute;
+    top: 35;
+    left: 45;
+    left: 50%;
+    top: 50%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*margin: 0 100px;*/
+}
+
+.card {
+    flex: 0 1 calc(100%/3 - 20px*2);
+    background-color: #fff;
+    margin: 0 30px 25px 0;
+}
+
+.card h4,
+.card p {
+    margin-left: 41px;
+    margin-right: 23px;
+}
+
+.cards>div {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+#statistics-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistics-cards {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 323px;
+}
+
+.statistics {
+    position: relative;
+    width: 530px;
+    height: 363px;
+    flex: 1;
+}
+
+.card-text {
+    flex: 1;
+    margin: auto 68px auto 30px;
+}
+
+.statistics img {
+    position: absolute;
+}
+
+.audit img:first-child {
+    left: 32px;
+    top: 106px;
+}
+
+.audit img:nth-child(2) {
+    left: 91px;
+    top: 30px;
+}
+
+.audit img:nth-child(3) {
+    left: 270px;
+    top: 120px;
+}
+
+.data img:first-child {
+    left: 28px;
+    top: 34px;
+    border: 1px;
+    /*border-image: linear-gradient(to right, rgb(187, 210, 224), rgb(203, 231, 190)),
+        linear-gradient(to bottom, rgb(114, 191, 87), rgb(116, 191, 86)),
+        linear-gradient(to left, rgb(204, 233, 187), rgb(187, 210, 224)),
+        linear-gradient(to top, rgb(84, 144, 184), rgb(80, 138, 176));
+*/
+}
+
+.data img:last-child {
+    left: 223px;
+    top: 62px;
+}
+
+.results img:first-child {
+    left: 26px;
+    top: 12px;
+}
+
+.results img:nth-child(2) {
+    left: 279px;
+    top: 12px;
+}
+
+.results img:nth-child(3) {
+    left: 172px;
+    top: 96px;
+}
+
+.text {
+    text-align: center;
+}
+
+#brands {
+    background-color: #F9F8FF;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin: 0 100px;*/
+}
+
+.brands img {
+    flex: 0 1 calc(100%/5 - 20px*2);
+}
+
+#brands p,
+#brands h4 {
+    text-align: center;
+}
+
+#brands p:first-child {
+    padding-top: 185px;
+    font-size: 12px;
+}
+
+#brands p:last-child {
+    padding-bottom: 185px;
+    font-size: 16px;
+}
+
+#brands h4 {
+    font-size: 48px;
+    margin: 24px auto 32px auto;
+}
+
+#start-working {
+    display: flex;
+    height: 817px;
+    background: linear-gradient(to left, #35D3FF, #A963F8);
+}
+
+#start-working>div {
+    flex: 1;
+    margin: auto;
+}
+
+#start-working>div:last-child {
+    margin: 0;
+}
+
+
+.sw-text {
+    margin: 20% 0 20% 30%;
+}
+
+#start-working>div:last-child {
+    position: relative;
+}
+
+#start-working .quarter {
+    position: absolute;
+    left: 50%;
+    top: 114px;
+}
+
+#start-working .ui {
+    position: absolute;
+    left: 24px;
+    top: 151px;
+}

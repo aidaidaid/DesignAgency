@@ -6,9 +6,32 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
-main>div * {
-    margin: auto 10%;
+/*main>div, footer {
+    padding-left: 10%;
+    padding-right: 10%;
+}*/
+
+/*main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}*/
+
+section {
+    background: linear-gradient(to left, #35D3FF, #A963F8);
 }
+
+main>div, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /* margin: 0 200px;*/
+}
+
+
 
 header {
     margin: 0 30px;
@@ -22,6 +45,10 @@ footer {
 }
 
 footer>div:first-child {
+    background-color: #0D0D0D;
+}
+
+footer>div:first-child>div:first-child {
     margin: 0 30px;
     display: flex;
     justify-content: space-between;
@@ -43,8 +70,6 @@ footer>div:first-child {
 #copyright div p {
     display: inline-block;
 }
-
-
 
 #logo {
     display: flex;
@@ -248,6 +273,7 @@ nav {
 
 #start-working {
     display: flex;
+    flex-direction: row;
     height: 817px;
     background: linear-gradient(to left, #35D3FF, #A963F8);
 }
@@ -281,3 +307,5 @@ nav {
     left: 24px;
     top: 151px;
 }
+
+
